@@ -1,0 +1,23 @@
+.venv/
+.vsdasVenv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated run artifacts (keep the folder, ignore its contents)
+outputs/*
+!outputs/.gitkeep
+runs/
+assets/videos/
+assets/models/
+
+*.mp4
+*.avi
+
+.ipynb_checkpoints/
+
+# Stray model weights, but keep the bundled YOLOv8n
+models/*.pt
+!assets/models/yolov8n.pt
+
+.DS_Store
